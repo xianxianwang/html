@@ -1,0 +1,178 @@
+header{
+	width:100%;
+	height:100px;
+	padding:30px;
+	font-size:2em;
+	font-weight:bold;
+	background-color:CadetBlue  ;
+	color:white;
+}
+footer{
+	position:absolute;
+	bottom:-64px;
+	background-color:CadetBlue  ;
+	color:white  ;	
+	width:100%;
+	height:30px;
+	text-align:center;
+	padding:6px;
+	font-size:1em;
+}
+nav{
+	width:600px;
+	height:100px;
+	background-color:pink;
+	padding:20px;
+	font-size:2em;
+}
+article{
+	width:100%;
+	height:650px;
+	background-color:black ;
+}
+#taohua:hover{
+	box-shadow:0 0 21px 2px lightpink;
+}
+canvas{
+	width:200px;
+	height:200px;
+	border:1px solid transparent;
+}
+#listImg{
+	position:absolute;
+	left:25%;
+	width:60%;
+	height:600px;
+	top:25%;
+	/*display:none;*/
+	color:white;
+}
+header img{
+	position:absolute;
+	width:60px;
+	height:60px;
+}
+.img1{left:80%;}
+.img2{left:85%;}
+.img3{left:90%;}
+header img:hover{
+	width:70px;
+	height:70px;
+	box-shadow:0 0 23px 5px MistyRose ;
+}
+.container{
+	display:flex;
+	text-align:center;
+	font-weight:bold;
+	flex-flow:row wrap;
+	font-size:1.3em;
+}
+.container >*{
+	padding:10px;
+	flex:1 100%;
+}
+.item1{
+	height:50px;
+	background-color:pink;
+	color:hotpink;
+	font-size:1.5em;
+}
+.aside{
+	flex:1;
+}
+.item3{
+	flex-basis:860px;
+	margin:0;
+	padding:0;
+}
+.item4{
+	background-color:gray;
+	height:40px;
+}
+.itemc{display:none;}
+.item2 ul{
+	list-style-type:none;
+}
+.item2 li{
+	display:block;
+	font-size:1em;
+} 
+.item2 li:hover{
+	color:hotpink;
+}
+#code{
+	position:absolute;
+	width:100px;
+	height:100px;
+	left:620px;
+	top:291px;
+}
+.peach1,.flower1{
+	height:50px;
+	font-size:2em;
+	background-color:pink;
+	text-align:center;
+}
+.peach1 a{
+	color:hotpink;
+	text-decoration:none;
+}
+.peach1 a:hover{
+	text-decoration:none;
+	color:DeepPink ;
+	text-shadow:2px 3px white;
+}
+.peach2{
+	text-align:center;
+	font-size:1.5em;
+	padding:15px;
+}
+.peach3,.flower3{
+	text-align:center;
+	background-color:darkgray;
+	height:30px;
+	font-size:1.3em;
+}
+.flower1{
+	color:hotpink;
+}
+.girl{
+	float:left;
+	background-color:white;
+	width:210px;
+	height:400px;
+	margin:13px;
+}
+.girl img{
+	width:100%;
+	height:380px;
+}
+.flower3{
+	clear:both;
+}
+.girl img:hover{
+	box-shadow:0 0 23px 3px white;
+}
+.girl1{
+	width:30%;
+	height:80%;
+	animation:myGirl 4s;
+}
+@keyframes myGirl{
+	from{
+		transform:scale(0.1);
+		opacity:0.4;
+	}
+	to{
+		transform:scale(1);
+		opacity:1;
+		}
+}
+
+
+
+
+
+
+
+
